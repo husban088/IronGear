@@ -1,0 +1,220 @@
+
+/* =================== NAVBAR SECTION =================== */
+
+nav li a{
+   margin-top: 1rem;
+   font-size: 1rem;   
+}
+
+/* ================= HEADER 2 SECTION ================= */
+
+.home-heading{
+    text-align: center;
+    margin-top: 4rem;
+    font-weight: 700;
+}
+.header1{
+    padding-bottom: 7%;
+}
+#header2{
+    padding-bottom: 4%;
+}
+
+.home-section{
+    margin-top: 4rem;
+}
+
+/* ================= ABOUT SECTION ================= */
+
+.about-heading{
+    text-align: center;
+    margin-top: 4rem;
+    font-weight: 700;
+}
+
+.about-section{
+    margin-top: 4rem;
+}
+
+#about figcaption{
+    font-weight: 500;
+    margin-top: 1rem;
+    color: black;
+    line-height: 1.7;
+}
+
+/* ================= CARD SECTION ================= */
+
+#card{
+    padding: 7% 10%;
+}
+
+.card-heading{
+    margin-left: 6rem;
+    font-weight: 700;
+}
+.card-para{
+    margin-left: 6rem;
+    margin-bottom: 2rem;
+}
+
+/* ================= FOOTER SECTION ================= */
+
+.footer{
+    padding: 8% 2%;
+    background-color: #232323;
+    color: #fff;
+    color: #fff;
+}
+
+.text{
+    background-color: black;
+    text-align: center;
+    color: #fff;
+    padding: 1%;
+}
+
+.footer-links li a{
+    color: grey;
+    font-weight: 600;
+}
+.footer-links li a:hover{
+    color: #fff;
+}
+
+.footer-email p{
+    line-height: 2;
+    color: grey;
+}
+
+.footer-social{
+    margin-top: 2rem;
+    margin-left: 2rem;
+    border-radius: 100%;
+    border: 1px solid white;
+    background-color: #fff;
+    padding: 5%;
+    color: black;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.footer-social:hover{
+    outline: 3px solid blue;
+}
+
+/* ================= MEDIA QUERY ================= */
+
+@media (max-width: 510px){
+    .about-heading{
+        font-size: 1.6rem;
+    }
+}
+
+@media (max-width: 350px){
+    .about-heading{
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 700px){
+    #about-img{
+        width: 200%;
+    }
+}
+
+
+@media (max-width: 755px){
+      .about-2 p{
+        line-height: 2;
+        
+      }
+      .about-1 p{
+        line-height: 2;
+        margin-bottom: -0.81rem;
+      }
+      
+}
+
+
+@media (max-width: 540px){
+    .card-heading{
+        width: 100%;
+        margin: auto;
+        margin-left: 2rem;
+        margin-bottom: 1rem;
+        font-size: 1.8rem;
+    }
+}
+
+@media (max-width: 640px){
+    .card-heading{
+        margin-left: 3rem;
+    }
+}
+
+@media (max-width: 501px){
+    .card-heading{
+        margin-left: 1.5rem;
+    }
+}
+
+@media (max-width: 410px){
+    .card-heading{
+        font-size: 1.6rem;
+        margin-left: 0.9rem;
+    }
+}
+
+@media (max-width: 357px){
+    .card-heading{
+        font-size: 1.5rem;
+    }
+}
+
+
+
+
+
+
+@media (max-width: 510px){
+    .footer-social{
+        margin-left: 1rem;
+    }
+}
+
+@media (max-width: 366px){
+    .footer-social{
+    font-size: 0.7rem;
+       }
+       .footer-email h6{
+        margin-top: 2rem;
+       }
+        .text{
+            font-size: 0.8rem;
+        }
+}
+
+@media (max-width: 1198px){
+    .footer-social{
+        margin-left: 1rem;
+    }
+}
+
+@media (max-width: 767px){
+        .footer-email h6{
+        margin-top: 1.5rem;
+    }
+}
+
+@media (max-width: 532px){
+    #about-btn1{
+        margin-top: 2rem;
+    }
+}
+
+@media (max-width: 465px){
+    .about-1 p{
+        margin-bottom: -2.5rem;
+    }
+}

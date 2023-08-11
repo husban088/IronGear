@@ -1,0 +1,182 @@
+
+/* =================== NAVBAR SECTION =================== */
+
+nav li a{
+    margin-top: 1rem;
+    font-size: 1rem;   
+ }
+
+/* =================== PRODUCT SECTION =================== */
+
+#products {
+    padding-bottom: 7%;
+}
+
+#products h1 {
+    text-align: center;
+    font-weight: 700;
+    margin-top: 3rem;
+}
+
+#products p {
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 5rem;
+    margin-top: 1rem;
+}
+
+.product-section {
+    margin-top: 3rem;
+}
+
+#products figcaption {
+    font-size: 1.5rem;
+    color: black;
+}
+
+/* =================== TRENDS SECTION =================== */
+
+#trends {
+    padding-bottom: 7%;
+}
+
+#trends h1 {
+    margin-top: 3rem;
+    text-align: center;
+    font-weight: 700;
+}
+
+#trends figcaption {
+    font-size: 1rem;
+    color: black;
+    font-weight: 500;
+}
+
+.trend-section {
+    margin-top: 3rem;
+}
+
+/* =================== ARRIVALS SECTION =================== */
+
+#arrivals {
+    padding-bottom: 7%;
+}
+
+#arrivals h1 {
+    text-align: center;
+    font-weight: 700;
+    margin-top: 3rem;
+}
+
+.arrival-section {
+    margin-top: 3rem;
+}
+
+#arrivals span {
+    border: 1px solid black;
+    padding: 5px;
+    gap: 5px;
+}
+
+#arrivals figcaption{
+    font-weight: 600;
+    color: black;
+}
+
+/* =================== FOOTER SECTION =================== */
+
+.footer{
+    padding: 8% 2%;
+    background-color: #232323;
+    color: #fff;
+    color: #fff;
+}
+
+.text{
+    background-color: black;
+    text-align: center;
+    color: #fff;
+    padding: 1%;
+}
+
+.footer-links li a{
+    color: grey;
+    font-weight: 600;
+}
+.footer-links li a:hover{
+    color: #fff;
+}
+
+.footer-email p{
+    line-height: 2;
+    color: grey;
+}
+
+.footer-social{
+    margin-top: 2rem;
+    margin-left: 2rem;
+    border-radius: 100%;
+    border: 1px solid white;
+    background-color: #fff;
+    padding: 5%;
+    color: black;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.footer-social:hover{
+    outline: 3px solid blue;
+}
+
+
+/* =================== MEDIA QUERY =================== */
+
+@media (max-width: 400px) {
+    #products p {
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 767px) {
+    .section1 {
+        margin-bottom: 3rem;
+    }
+
+    .section2 {
+        margin-bottom: 3rem;
+    }
+
+    .section3 {
+        margin-bottom: 3rem;
+    }
+}
+
+@media (max-width: 510px){
+    .footer-social{
+        margin-left: 1rem;
+    }
+}
+
+@media (max-width: 366px){
+    .footer-social{
+    font-size: 0.7rem;
+       }
+       .footer-email h6{
+        margin-top: 2rem;
+       }
+        .text{
+            font-size: 0.8rem;
+        }
+}
+
+@media (max-width: 1198px){
+    .footer-social{
+        margin-left: 1rem;
+    }
+}
+
+@media (max-width: 767px){
+        .footer-email h6{
+        margin-top: 1.5rem;
+    }
+}

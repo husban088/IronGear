@@ -1,0 +1,152 @@
+
+/* =================== NAVBAR SECTION =================== */
+
+nav li a{
+    margin-top: 1rem;
+    font-size: 1rem;   
+ }
+
+/* =============== MENS SECTION =============== */
+
+#mens{
+    padding-bottom: 7%;
+}
+
+#mens h1{
+    text-align: center;
+    margin-top: 3rem;
+    font-weight: 700;
+    font-size: 2.7rem;
+}
+.men-section{
+    margin-top: 3rem;
+}
+#mens span{
+    padding: 5%;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+/* =============== MENS 2 SECTION =============== */
+
+#mens2{
+    padding-bottom: 7%;
+}
+
+#mens2 span{
+    padding: 5%;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+/* =============== MENS 3 SECTION =============== */
+
+#mens3{
+    padding-bottom: 7%;
+}
+
+span:hover{
+    background-color: black;
+}
+
+#mens3 span{
+    padding: 5%;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+/* =============== FOOTER SECTION =============== */
+
+
+.footer{
+    padding: 8% 2%;
+    background-color: #232323;
+    color: #fff;
+    color: #fff;
+}
+
+.text{
+    background-color: black;
+    text-align: center;
+    color: #fff;
+    padding: 1%;
+}
+
+.footer-links li a{
+    color: grey;
+    font-weight: 600;
+}
+.footer-links li a:hover{
+    color: #fff;
+}
+
+.footer-email p{
+    line-height: 2;
+    color: grey;
+}
+
+.footer-social{
+    margin-top: 2rem;
+    margin-left: 2rem;
+    border-radius: 100%;
+    border: 1px solid white;
+    background-color: #fff;
+    padding: 5%;
+    color: black;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.footer-social:hover{
+    outline: 3px solid blue;
+}
+
+/* =============== MEDIA QUERY =============== */
+
+@media (max-width: 767px){
+    .section1{
+        margin-bottom: 3rem;
+    }
+}
+
+@media (max-width: 767px){
+    .section2{
+        margin-bottom: 3rem;
+    }
+}
+
+@media (max-width: 767px){
+    .section3{
+        margin-bottom: 3rem;
+    }
+}
+
+@media (max-width: 510px){
+    .footer-social{
+        margin-left: 1rem;
+    }
+}
+
+@media (max-width: 366px){
+    .footer-social{
+    font-size: 0.7rem;
+       }
+       .footer-email h6{
+        margin-top: 2rem;
+       }
+        .text{
+            font-size: 0.8rem;
+        }
+}
+
+@media (max-width: 1198px){
+    .footer-social{
+        margin-left: 1rem;
+    }
+}
+
+@media (max-width: 767px){
+        .footer-email h6{
+        margin-top: 1.5rem;
+    }
+}
